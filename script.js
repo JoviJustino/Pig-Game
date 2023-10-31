@@ -51,7 +51,7 @@ btnRoll.addEventListener('click', function () {
 
    
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `/PigGame/img/dice-${dice}.png`;
 
     
     if (dice !== 1) {
